@@ -1,0 +1,78 @@
+#extend("base")
+
+#export("body") {
+
+<div class="row">
+    <div class="u-full-width">
+        <h4>Monthly Budget Manager</h4>
+    </div>
+</div>
+
+<div class="two columns">
+    <table>
+        <thead>
+            <tr>
+                <th>Food: $143</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>-$26</td>
+            </tr>
+            <tr>
+                <td>-$42</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<table class="two columns">
+    <thead>
+        <tr>
+            <th>Bills: $1000</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Rent: $500</td>
+        </tr>
+        <tr>
+            <td>Gym: $250</td>
+        </tr>
+        <tr>
+            <td>Cell phone: $250</td>
+        </tr>
+    </tbody>
+</table>
+
+<table class="two columns">
+    <thead>
+        <tr>
+            <th>Spending: $424</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>-$26</td>
+        </tr>
+        <tr>
+            <td>-$42</td>
+        </tr>
+        <tr>
+            <td>-$12</td>
+        </tr>
+    </tbody>
+</table>
+
+<form action="" method="post">
+<div class="row">
+    <div class="u-full-width">
+            <input name="name" class="two columns" placeholder="Name" />
+            <input name="spendingAmount" class="two columns" placeholder="$" />
+            <input class="button" type="submit" value="Create budget table">
+    </div>
+</div>
+</form>
+
+
+}
